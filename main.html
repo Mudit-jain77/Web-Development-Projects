@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mudit : Developer And Programmmer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Roboto:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Fira+Sans:wght@100&family=Roboto:wght@300&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: sticky;
+            top: 0px;
+            cursor: pointer;
+            font-family: 'Baloo Bhaijaan 2', cursive;
+        }
+
+        .nav-list {
+            width: 100%;
+
+            display: flex;
+            justify-content: right;
+            align-items: center;
+            margin: 10px;
+            padding: 10px;
+            font-size: 20px;
+        }
+
+        .nav-list li {
+            list-style: none;
+            margin: 5px;
+            padding: 10px;
+        }
+
+        .nav-list li a {
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+        }
+
+        .nav-list li a:hover {
+            color: rgb(255, 255, 255);
+            text-decoration: underline;
+        }
+
+        .name {
+            color: rgb(0, 0, 0);
+            margin: 20px;
+            padding: 15px;
+            font-size: 20px;
+            font-weight: 700;
+        }
+
+        .background {
+            background-color: gray;
+        }
+
+        .background1 {
+            background-color: rgb(187, 186, 186);
+            background-size: cover;
+            background-blend-mode: darken;
+        }
+
+        .box1 {
+            display: flex;
+            justify-content: top;
+            align-items: top;
+            color: black;
+            max-width: 60%;
+            margin: auto;
+            height: 80%;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .firstsection {
+            height: 100vh;
+        }
+
+        .firsthalf {
+            display: flex;
+            width: 70%;
+            justify-content: center;
+            flex-direction: column;
+            padding: 10px;
+        }
+
+        .secondhalf {
+            width: 30%;
+            display: flex;
+            justify-content: center;
+        }
+
+        .secondhalf img {
+            width: 90%;
+            padding: 1px 0px;
+            border: 2px solid black;
+            border-radius: 100px;
+            display: block;
+            margin: auto;
+        }
+
+        .text-big {
+            font-size: 50px;
+            text-align: center;
+            padding: 10px;
+            font-weight: 700;
+        }
+
+        .text-small {
+            font-size: 20px;
+            padding: 10px;
+
+        }
+
+        .btn2 {
+            padding: 11px 5px;
+            margin: 11px 5px;
+            border: 2px solid white;
+            border-radius: 8px;
+            cursor: pointer;
+            background: none;
+            color: white;
+        }
+
+        .btn1 {
+            padding: 11px 20px;
+            margin: 11px 3px;
+            border: 2px solid white;
+            border-radius: 8px;
+            cursor: pointer;
+            background: none;
+            color: white;
+        }
+        .btn1 a{
+            text-decoration: none   ;
+            color: white;
+        }
+
+        .btn1:hover {
+            background-color: gray;
+        }
+
+        .btn2:hover {
+            background-color: gray;
+        }
+
+    </style>
+</head>
+
+<body>
+    <nav class="navbar background">
+        <div class="name">
+            Mudit
+        </div>
+        <ul class="nav-list">
+
+            <li> <a href="main.html">Home</a></li>
+            <li> <a href="hobby.html">My Hobbies</a></li>
+            <li> <a href="skills.html">Skills</a></li>
+        </ul>
+    </nav>
+    <section class="firstsection background1">
+        <div class="box1">
+            <div class="firsthalf">
+                <p class="text-big">Hi I Am Mudit Jain</p>
+                <p class="text-small">I am a developer , programmer and sports enthusiast . I live in Ghaziabad and currently studying in NSUT</p>
+                <div class="buttons">
+                    <div class="btn1"> <a href="hobby.html"> My Hobbies</a></div>
+                    <div class="btn1"><a href="skills.html"> Skills</a></div>
+                </div>
+            </div>
+            <div class="secondhalf">
+                <img src="pp.jpg" alt="Error">
+            </div>
+        </div>
+       </section>
+</body>
+
+</html>
